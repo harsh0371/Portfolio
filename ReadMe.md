@@ -1,12 +1,12 @@
-# 🌐 Aryan Soni's Portfolio
+# 🌐 Harsh Gahlyan's Portfolio
 
-# 🚀 Live Portfolio: [Click Here](https://aryansoni00.github.io/Portfolio/)
+# 🚀 Live Portfolio: [Click Here](https://harsh0371.github.io/Portfolio/)
 
 ---
 
 ## 👋 Hey there!
 
-Welcome to my digital space! I'm **Aryan Soni**, a passionate **Software Developer** and **Tech Enthusiast** exploring the realms of **Full Stack Development, Cloud Computing, and DevOps**. My portfolio showcases the projects, skills, and experiences that define my journey in the world of tech.
+Welcome to my digital space! I'm **Harsh Gahlyan**, a passionate **Software Developer** and **Tech Enthusiast** exploring the realms of **Full Stack Development, Cloud Computing, and DevOps**. My portfolio showcases the projects, skills, and experiences that define my journey in the world of tech.
 
 ---
 
