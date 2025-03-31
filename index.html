@@ -48,30 +48,26 @@
 			</div>
 		</nav>
 		<section class="home pt-5 pb-5" id="home">
-			<div class="container">
-				<div class="row d-flex align-items-center justify-content-between">
-					<!-- Left Section (About Me Description) -->
-					<div class="col-12 col-md-6 text-center text-md-start" data-aos="slide-right">
-						<h2 style="color: #3f396d">
-							Hello! I Am <br /><span class="c-orange">Harsh Gahlyan</span>
-						</h2>
-						<p class="text-muted">
-							I'm a pre-final year student at UPES with a strong foundation in web development, skilled in building fully responsive
-							websites and handling both front-end and back-end functionalities with expertise in Cloud Computing.
-						</p>
+			<div class="row justify-content-evenly align-middle">
+				<!-- here data-aos is used for adding aos animation  -->
+				<div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+					<h2 style="color: #3f396d">Hello! I Am <br /><span class="c-orange">Harsh Gahlyan</span></h2>
+					<p class="text-muted">
+						I'm a pre-final year student at UPES with a strong foundation in web development, skilled in building fully responsive
+						websites and handling both front-end and back-end functionalities with expertise in Cloud Computing.
+					</p>
+					<a href="mailto:harshgahlyan01@gmail.com?subject=Job%20Opportunity" style="text-decoration: none;">
 						<button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">Hire Me</button>
-						<a href="" class="link ms-4 d-none">See My Work</a>
-					</div>
-		
-					<!-- Right Section (Photograph) -->
-					<div class="col-12 col-md-5 text-center" data-aos="slide-left">
-						<img src="images/Harsh Profile Photo.jpeg" alt="Harsh Gahlyan" class="img-fluid rounded-circle"
-							 style="max-width: 80%; height: auto;">
-					</div>
+					</a>
+					<a href="" class="link ms-4 d-none">See My Work</a>
+				</div>
+				<div class="col-10 col-md-4 d-none d-md-block" data-aos="slide-left">
+                    <div class="profile-image-container">
+                        <img src="images/Harsh Profile Photo.jpeg" alt="Harsh Gahlyan" class="profile-image">
+                    </div>
 				</div>
 			</div>
 		</section>
-		
 		<section class="expertise mt-5" id="service">
 			<div class="heading text-center">
 				<small>My Expertise</small>
@@ -247,6 +243,18 @@
                     <a href="https://app-dashboard-whjdph2c8lw8yndzghr8td.streamlit.app/" target="_blank" class="btn">Live Demo</a>
                   </div>
                 </div>
+
+                <!-- New Decipher Project Card -->
+                <div class="project-card">
+                  <img src="images\Decipher.png" alt="Project Image" class="project-image" />
+                  <p class="heading" style="color: white;">DECIPHER</p>
+                  <div class="card-content">
+                  </div>
+                  <div class="button-container">
+                    <a href="https://github.com/harsh0371/Decipher.git" target="_blank" class="btn">GitHub</a>
+                    <a href="https://decipher-qy9ytcw5gxnp7yqhhghunk.streamlit.app/" target="_blank" class="btn">Live Demo</a>
+                  </div>
+                </div>
               </div>
 
               <style>
@@ -344,6 +352,40 @@
                 .btn:hover {
                   background: #e81cff;
                   transform: scale(1.1);
+                }
+
+                .profile-image-container {
+                    position: relative;
+                    width: 100%;
+                    max-width: 400px;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    border-radius: 20px;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                }
+
+                .profile-image {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .profile-image-container::before {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+                    opacity: 0.2;
+                    transition: opacity 0.3s ease-in-out;
+                }
+
+                .profile-image-container:hover::before {
+                    opacity: 0.3;
+                }
+
+                .profile-image-container:hover .profile-image {
+                    transform: scale(1.05);
                 }
               </style>
 
@@ -463,7 +505,7 @@
 					</div>
 					<div class="row justify-content-evenly">
 						<div class="col-1">
-							<i class="bi bi-envelope-fill"></i>
+							<i class="bi bi-envelopefill"></i>
 						</div>
 						<div class="col-11">
 							<p>harshgahlyan01@gmail.com</p>
@@ -513,8 +555,7 @@
 		<!-- footer section ends here -->
 
 		<!-- bootstrap javascript cdn link  -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 			crossorigin="anonymous"
 		></script>
